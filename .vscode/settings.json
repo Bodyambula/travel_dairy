@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "D:/labs/cross_roflan/lab 1/travel_dairy/linux"
+    "cmake.sourceDirectory": "D:/labs/cross_roflan/lab 1/travel_dairy/linux",
+    "java.configuration.updateBuildConfiguration": "disabled"
 }
