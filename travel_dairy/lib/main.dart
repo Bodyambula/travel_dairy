@@ -51,7 +51,7 @@ class TravelDairyApp extends StatelessWidget {
     const primaryBlue = Color(0xFF1A56DB);
 
     return MaterialApp(
-      title: 'Travel Dev auto 🛠️',
+      title: 'Travel Dev auto_1 🛠️',
       debugShowCheckedModeBanner: false,
       // Localization setup
       localizationsDelegates: const [
