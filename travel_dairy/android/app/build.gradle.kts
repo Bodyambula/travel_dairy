@@ -34,6 +34,28 @@ android {
         versionName = flutter.versionName
     }
 
+    // --- ПОЧАТОК НОВИХ НАЛАШТУВАНЬ FLAVORS ---
+    flavorDimensions += "environment"
+
+    productFlavors {
+        create("dev") {
+            dimension = "environment"
+            applicationIdSuffix = ".dev"
+            versionNameSuffix = "-dev"
+            resValue("string", "app_name", "Travel Dev")
+        }
+        create("staging") {
+            dimension = "environment"
+            applicationIdSuffix = ".stg"
+            versionNameSuffix = "-stg"
+            resValue("string", "app_name", "Travel QA")
+        }
+        create("prod") {
+            dimension = "environment"
+            resValue("string", "app_name", "Travel Dairy")
+        }
+    }
+
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
