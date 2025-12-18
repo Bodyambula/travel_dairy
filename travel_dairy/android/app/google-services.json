@@ -23,6 +23,44 @@
           "other_platform_oauth_client": []
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615082414261:android:92a2b0c99a3bfc9f176efc",
+        "android_client_info": {
+          "package_name": "com.example.travel_dairy.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcVoHlm-coq1s_UcopaBIFkDCFSi7EK-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615082414261:android:4c8cd08e2a0fdc45176efc",
+        "android_client_info": {
+          "package_name": "com.example.travel_dairy.stg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcVoHlm-coq1s_UcopaBIFkDCFSi7EK-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
     }
   ],
   "configuration_version": "1"
